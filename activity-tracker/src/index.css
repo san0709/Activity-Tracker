@@ -1,0 +1,45 @@
+/* Global styling for the Activity Tracker app */
+body {
+  background: #f8f9fa;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header with gradient and rounded corners */
+.header {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Card styling – rounded corners and subtle shadow */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons for activities – consistent size */
+.activity-btn {
+  min-width: 100px;
+  margin: 0.25rem;
+}
+
+/* Modal content – rounded corners */
+.modal-content {
+  border-radius: 1rem;
+}
+
+/* Login page specific styling */
+.login-card {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Table styling for activity log */
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
